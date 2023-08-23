@@ -15,7 +15,7 @@
    overflow: hidden;
 }
 .imag>img{
-    object-fit: contain;
+    object-fit: cover;
 
     
 }
