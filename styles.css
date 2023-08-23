@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.imag{
+   height:500px;
+   width:800px;
+   overflow: hidden;
+}
+.imag>img{
+    object-fit: contain;
+
+    
+}
+.bod{
+   height:300px;
+   width:400px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.bod>h1,.bod>p{
+    margin-bottom: 20px;
+}
+.bod>button{
+    padding:5px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+}
